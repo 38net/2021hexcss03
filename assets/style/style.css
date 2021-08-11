@@ -1,0 +1,1858 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,900&display=swap');
+
+
+body {
+    font-family: 'Roboto', 'Noto Sans TC',  sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+
+/* font-weight setting */
+.bold {
+    font-weight: 700;
+}
+
+.regular {
+
+    font-weight: 400;
+}
+
+a {
+    color: initial;
+
+}
+
+.nav-logo a {
+    display: block;
+}
+
+
+/* about color */
+
+.bg-color-1 {
+    background-color: #AA0601;
+}
+
+
+
+.color-1 {
+    color: #FFFFFF;
+}
+
+.color-2 {
+    color: #650300;
+}
+
+.color-3 {
+    color: #000;
+}
+
+.color-4 {
+    color: #AA0601;
+}
+
+.color-5 {
+    color: #212529;
+}
+
+.color-6 {
+    color: #707070;
+}
+
+
+/* about font */
+.ff-Roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.fs-1 {
+    font-style: italic;
+}
+
+.fw-9 {
+    font-weight:900;
+}
+
+
+/* about space */
+
+.text-center {
+    text-align: center;
+}
+
+.mb-1 {
+    margin-bottom: 8px;
+}
+
+
+
+/* ================ PC/LAPTOP  ================ */
+
+/* ================ PC/LAPTOP BASE SETTING ================ */
+
+.container {
+    padding: 0 15px;   
+    max-width: 1140px;  /* (1110+30 gutter) */
+    margin: 0 auto;
+
+}
+
+
+
+
+h2 {
+
+    font-size: 64px;
+    line-height: 96px;
+
+}
+
+h3 {
+    font-size: 48px;
+    line-height: 72px;
+}
+
+h4 {
+    font-size: 36px;
+    line-height: 54px;
+
+
+}
+
+h5 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+
+/* ======  PC/LAPTOP HEADER SETTING ====== */
+
+.header {
+    background-color: #AA0601;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 88px;
+
+}
+
+
+
+
+.nav-logo {
+    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/logo.png);
+    max-width: 84px;
+    height: 48.57px;
+    background-repeat: no-repeat;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-position: center;
+    background-size: contain;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu-list {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.nav-menu-list a {
+    margin-right: 64px;
+
+}
+
+
+.nav-menu-list:last-child a {
+    margin-right: 0;
+}
+
+
+.header-banner {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 840px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header-banner-text {
+    margin-top: 348px;
+    margin-bottom: 352px;
+    text-align: right;
+    width:1110px;
+}
+
+.home-section {
+    padding-top:60px;
+    padding-bottom:80px;
+}
+
+
+
+.title-1 {
+    margin-bottom: 48px;
+}
+
+.title-2 {
+    margin-bottom: 40px;
+}
+
+.title-3 {
+    margin-bottom: 24px;
+
+}
+
+
+.header-content-list-img {
+    width: 84px;
+    height: 84px;   
+    margin-bottom: 24px;
+
+}
+
+.header-content-list-title {
+    margin-bottom: 8px;
+}
+
+.header-content-list {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.header-content-list li {
+    width: 25%;
+    padding: 0 15px;
+}
+
+
+.header-content-list p {
+    text-align: left;
+}
+
+
+/*====== PC/LAPTOP FOOTER SETTING ======*/
+
+
+.footer {
+    padding-top: 32px;
+    padding-bottom: 39px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+
+.footer-icon-list {
+    display: flex;    
+    align-items: center;
+    margin-bottom: 36px;
+   
+}
+
+
+.footer-top-left {
+    margin-right: 3rem;
+}
+
+.footer-top-right {
+    margin-right: 32px
+}
+
+
+.footer-top-right img {
+    width: 48px;
+    height: 48px;
+}
+
+.footer-contact {
+    padding-bottom: 24px;
+    width:100%;
+
+}
+
+.footer-contact-info {
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
+.footer-contact-info img {
+    width: 36px;
+    height: 36px;
+    margin-right: 22px;
+}
+
+.footer-line {
+    color: #fff;
+    width: auto;
+    margin-bottom: 32px
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-policy {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*================================== PC/LAPTOP HOME PAGE  =======================================*/
+
+/* === PC/LAPTOP CLASSIC SECTION === */
+
+.classic-img {
+   width: 60%;
+    
+
+}
+
+
+.classic li {
+    margin-bottom: 30px;
+}
+
+.classic-item-1,
+.classic-item-2 {
+    width: 40%;
+
+
+}
+
+.classic-item-1 {
+   
+    padding-left: 30px;
+
+}
+
+.classic-item-2 {
+    order: -1;
+    padding-right: 30px;
+
+}
+
+
+.classic li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.classic-item-icon {
+    width: 44px;
+    height: 44px;
+}
+
+.classic-item-icon {
+
+    margin-right: 10px;
+}
+
+
+/* === PC/LAPTOP CO-BRANDING SECTION === */
+
+.co-branding {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+}
+
+.co-branding-pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.co-branding-pic img {
+    width: 540px;
+    height: 455px;
+
+}
+
+.co-branding-pic li {
+    position: relative;
+}
+
+
+.co-branding-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 72px;
+    line-height: 108px;
+    width: 100%;
+    text-align: center;
+}
+
+/* === PC/LAPTOP RECOMMEND SECTION === */
+
+.recommend-list {
+    display: flex;
+    
+}
+
+.recommend-case {
+    width: 23%;
+    margin-right: 30px;
+
+}
+
+.recommend-case:last-child {
+    width: 23%;
+    margin-right: 0;
+
+}
+
+
+
+.rec-person {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.rec-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 2px 6px RGBA(0,0,2,1);
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    border-top: 0;    
+    height: 204px;
+    padding:16px;
+
+}
+
+
+
+
+/* === PC/LAPTOP CONTACT SECTION === */
+
+.form {
+    width: 730px;
+    margin: 0 auto;
+}
+
+.form-text {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 4px;
+}
+
+
+label,
+input {
+    display: block;
+}
+
+label {
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 14px 0 15px 16px;
+}
+
+input {
+    height: 50px;
+}
+
+input[type="checkbox"] {
+    height: initial;
+    width: initial;
+    display: initial;
+}
+
+.checkbox-agree {
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+
+.checkbox-agree label {
+    display: initial;
+}
+
+input[type="submit"] {
+    width: 350px;
+    height: 54px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+
+/*================================== PC/LAPTOP PRODUCT PAGE  =======================================*/
+
+.product-nav.container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.product-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.product-nav-item:hover {
+    border-bottom: 8px solid #AA0601;
+
+}
+
+.product-nav-item.active {
+    border-bottom: 8px solid #AA0601;
+
+}
+
+
+.product-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product-nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 96px;
+    border: 1px solid #DCDCDC;
+    font-weight: 500;
+}
+
+.product-nav-item a {
+    display: flex;
+}
+
+
+.product-nav-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 22px;
+}
+
+.product-nav-text {
+    font-size: 30px;
+    line-height: 50px;
+   
+}
+
+.product-nav-image {
+    display: flex;
+    height:304px;
+    margin-bottom: 80px;
+
+}
+
+.product-banner-1 {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-1.png);
+    background-position: center;
+    background-size:cover;
+    width:50%;
+
+    }
+    .product-banner-2 {
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-2.png);
+        background-position: center;
+        background-size:cover;
+        width:50%;
+    
+        }
+
+
+.product-nav-image img {
+    width: auto;
+
+}
+
+.product-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.product-list-item {
+    width: 22%;
+    margin-bottom: 104px;
+    text-transform: uppercase;
+    margin-right:30px;
+}
+
+.product-list-item:last-child {    
+    margin-bottom: 108px;
+    
+}
+
+
+
+
+.product-all {
+    text-align: center;
+}
+
+.product-all h2 {
+    font-size: 42px;
+    line-height: 63px;    
+    font-weight: 500;
+}
+
+.product-all p {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom:40px;
+
+}
+
+.product-list-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin: 0 auto;
+
+
+}
+
+.product-color {
+    display: flex;
+    align-items: center;  
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.product-color-icon-darkOrange {
+    width: 24px;
+    height: 24px;
+    border: 4px solid #5F3E2D;
+    background-color: #5F3E2D;
+    margin-right: 8px;
+    cursor: pointer;
+
+}
+
+
+.product-color-icon-Orange {
+    width: 24px;
+    height: 24px;
+    border: 4px solid #B75929;
+    background-color: #B75929;
+    cursor: pointer;
+
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    margin: 0 auto 160px;
+}
+
+.page-up,
+.page-down {
+    width: 81px;
+}
+
+.page-list {
+    width: 42px;
+}
+
+
+.page-index {
+    font-size: 19px;
+    line-height: 53px;
+    border: 1px solid #555555;
+    text-align: center;
+}
+
+.page-index:hover,
+.page-index.active {
+    background-color: #000000;
+
+}
+
+
+.page-index>a:hover {
+    color: #fff;
+
+}
+
+.page-down {
+    background-color: #F2F2F2;
+}
+
+.page-index a {
+    display: block;
+}
+
+
+/*================================== PC/LAPTOP STORE PAGE  =======================================*/
+.store {
+
+    padding-top: 204px;
+   
+}
+
+.store h2 {
+    font-size: 48px;
+    line-height: 70px;
+    border-left: 8px solid #9F1213;
+    padding-left: 16px;
+    height: 70px;
+    font-family: 'Noto Sans TC';
+    font-weight: 700;
+    margin-bottom: 65px;
+    
+}
+
+.shop-location.container {
+    font-size: 24px;
+    line-height: 30px;       
+    margin-bottom: 37px;
+    
+}
+
+.shop-location.container span {
+    padding-top: 7.5px;
+    padding-bottom: 7.5px; 
+    margin-right: 20px; 
+    line-height: 45px;  
+   
+
+}
+
+
+.shop-location.container select {
+    width: 324px;
+    height: 45px;
+    border: 1px solid #CED4DA;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 8.5px;
+    padding-bottom: 8.5px;
+}
+
+.shop-all {
+    padding-bottom:160px;
+}
+
+.shop-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.shop-list-item {
+    max-width: 30%;
+    margin-right: 30px;
+    margin-bottom:32px;
+}
+
+.shop-list-item {
+    max-width: 30%;
+    margin-right: 30px;
+    margin-bottom: 32px;
+}
+
+.shop-info span {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.shop-name {
+    line-height: 60px;
+    padding-left: 24px;
+    border: 1px solid #00000020;
+}
+
+.shop-info {
+
+    border: 1px solid #00000020;
+    padding: 16px 24px 16px
+}
+
+.shop-details {
+    font-size: 19px;
+    line-height: 67px;
+    background-color: #000;
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+}
+
+.fa-phone-alt,
+.fa-clock,
+.fa-map-marker-alt {
+    margin-right: 11px;
+}
+
+.FAQ.container {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-top: 96px;
+    margin-bottom: 60px;
+}
+
+
+.FAQ.container h2 {
+    font-size: 48px;
+    line-height: 70px;
+    border-left: 8px solid #9F1213;
+    padding-left: 16px;
+    height: 70px;
+    font-weight: 700;
+}
+
+.FAQ-all.container {
+    font-size: 32px;
+    line-height: 63px;
+    padding-top: 0;
+    margin-bottom: 36px;
+    font-weight: 700;
+}
+
+.FAQ-list dt {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-top: 16px;
+
+
+
+}
+
+.FAQ-list dd {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-left: 95px;
+    padding-bottom: 16px;
+    margin-top: 16px;
+
+}
+
+.blog {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.blog-navbar {
+    height: 52px;
+    background-color: #650300;
+   
+   
+}
+
+.blog-navbar >.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-navbar >.container >ul{
+    display: flex;    
+}
+
+.blog-navbar-items a {;
+    font-size: 20px;
+    line-height: 52px;
+    margin-right: 48px;
+    font-weight:700;
+    color:#FFF;
+}
+
+
+.log-navbar-search img {
+    width: 30px;
+    height: 30px;
+}
+
+   
+
+
+
+.blog.container h2 {
+    font-size: 48px;
+    line-height: 70px;
+    border-left: 8px solid #9F1213;
+    padding-left: 16px;
+    height: 70px;
+    font-weight: 700;
+}
+
+.blog-list{
+    display: flex;
+    margin-bottom:60px;
+    height:auto;
+    
+}
+
+.blog-list:last-child {
+    margin-bottom:96px;
+
+}
+
+.blog-list-img {
+    width:59%;
+    margin-right: 30px;
+    
+}
+
+.blog-list-img>img {
+    height:400px;
+}
+
+
+.blog-card{
+    width:41%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.blog-text {
+    display: flex;
+    flex-direction: column;    
+    
+}
+
+
+.blog-text h2{
+   font-size: 32px;
+   line-height: 63px;
+   font-weight:500;
+}
+
+.blog-text-subtitle{
+    font-size: 20px;
+   line-height: 30px;
+   font-weight:500;
+
+}
+
+
+.blog-text-date{
+    font-size: 16px;
+   line-height: 24px;
+   font-weight:500;
+
+}
+
+.blog-text li:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:24px;
+    font-family: 'Roboto';
+}
+
+.blog-text li:nth-child(3) {
+       margin-bottom:14px;
+       text-align: justify;
+       
+}
+
+
+.blog-text li:nth-child(3)>a {
+    display:none;
+}
+
+
+
+.blog-text-more {
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 900;
+    text-align: right;
+    align-self: flex-end;
+    font-family: 'Roboto';
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+    /* ================ TABLET BASE SETTING ================ */
+
+
+    body {
+
+        font-size: 14px;
+        line-height: 21px;
+
+    }
+
+    h3 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .container {
+        max-width: 720px;
+        /* (690+30 gutter) */
+
+    }
+
+
+    /* ======   TABLET HEADER SETTING ====== */
+
+    .header {
+
+        padding: 30px 39px;
+    }
+
+    .nav-menu-list a {
+        margin-right: 40px;
+
+    }
+
+   
+    .header-banner-text {
+        margin-top: 372px;
+        margin-bottom:372px;        
+        text-align: right;
+        width:690px;
+    }
+
+    .home-section {
+        padding-top:40px;
+        padding-bottom:56px;
+    }
+
+
+    .title-1 {
+        margin-bottom: 40px;
+    }
+    
+    .title-2 {
+        margin-bottom: 32px;
+    }
+
+    .header-content-list {
+        flex-wrap: wrap;
+
+    }
+
+    .header-content-list li {
+        max-width: 50%;
+    }
+
+
+    /*======  TABLET FOOTER SETTING ======*/
+    .footer{
+        padding-top:38px;
+        padding-bottom:32px;
+    }
+
+    .footer-top-left {
+        margin-right: 40px;
+    }
+
+    .footer-top-right img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .footer-top-right {
+        margin-right: 24px;
+    }
+
+    .footer-contact-info {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .footer-contact-info img {
+        margin-right: 11px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .footer-policy li {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /*==================================  TABLET HOME PAGE  =======================================*/
+
+    /* ===   TABLET CLASSIC SECTION === */
+    .classic li {
+        justify-content: start;
+    }
+
+   
+    .classic-item-2 {
+        order: 0;
+        padding-left: 30px;
+    }
+
+    .classic li {
+        margin-bottom: 8px;
+    }
+
+    .classic-item-icon {
+        width: 27px;
+        height: 27px;
+    }
+    
+    .classic-item-text {
+        font-size: 28px;
+        line-height: 72px;
+    }
+
+
+    .co-branding-pic img {
+        width: 330px;
+        height: 278px;
+    }
+
+    .co-branding-text {
+
+
+        font-size: 32px;
+        line-height: 25px;
+
+    }
+
+    /* ===   TABLET RECOMMEND SECTION === */    
+
+    
+       
+    .rec-text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .recommend-list {
+       flex-wrap:wrap;
+        
+    }
+    
+    .recommend-case {
+        width: 45%;
+        margin-right: 30px;
+        margin-bottom:32px;
+    
+    }
+    
+    .recommend-case:last-child {
+        width: 45%;
+        margin-right: 0;
+    
+    } 
+
+
+
+     /* ================ Tablet STORE SETTING ================ */ 
+     .store {
+        padding-top: 60px;
+    }
+
+    .store h2 {
+        font-size: 48px;
+        line-height: 67px;        
+        height: 67px;        
+        margin-bottom: 40px;
+    }
+
+    .shop-location.container {
+        font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 24px;
+    }
+
+    .shop-location.container span {
+        height:46px;
+        margin-right: 20px;       
+       
+    }
+
+    .shop-location.container select {
+        width: 237px;
+        height: 46px;       
+        font-size: 16px;
+        line-height: 24px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .shop-list-item {
+        max-width: 45%;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    .shop-all {
+        padding-bottom: 96px;
+    }
+
+    .product-nav-item {      
+        width: 230px;
+        height: 60px;
+    }
+
+    .product-nav-item img {
+        margin-right: 10px;
+        width: 32px;
+        height: 32px;
+        height: 400px;
+    }
+
+    .product-nav-text {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .product-nav-image {
+       
+        margin-bottom: 56px;
+    }
+
+    .product-banner-1 {
+        background-image: url(https://raw.githubusercontent.com/38net/pic/main/banner-1-sm.png);
+       
+    }
+
+    .product-all h2 {
+        font-size: 32px;
+        line-height: 48px;        
+    }
+
+    .product-all p {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 32px;
+    }
+
+    .product-list {
+       
+        justify-content: space-between;
+    }   
+
+
+
+    .product-list-item {
+        width: 48%;
+        margin-bottom: 72px;
+        margin-right:0;
+       
+    }
+
+    .product-list-item:last-child {    
+        margin-bottom: 65px;
+        
+    }
+
+    .page {
+        
+        margin-bottom: 96px;
+    }
+
+    .blog {
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+
+  
+    .blog.container h2 {
+        font-size: 48px;
+        line-height: 67px;
+        border-left-width: 4px;
+        height: 67px;
+    }
+
+    .blog-list{
+
+        
+        margin-bottom:24px;
+       
+    }
+
+    .blog-list-img {
+        width: 48%;
+        margin-right: 30px;
+        
+    }
+
+    .blog-list-img>img {
+        height: 208px;
+    }
+
+    .blog-card{
+        width: 52%;
+    }
+
+
+
+    .blog-text h2 {
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 400;
+    }
+
+    .blog-text-subtitle {
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 500;
+    }
+
+    .blog-text-date {
+        font-size: 14px;
+        line-height: 21px;
+        font-weight: 500;
+    }
+
+    .blog-text li:nth-child(2) {
+       
+        margin-bottom: 21px;
+       
+    }
+
+    .blog-text li:nth-child(3) {
+       font-size: 14px;
+       line-height: 20px;
+    }
+
+    
+
+    .blog-text li:nth-child(3)>a {
+        display:inline;
+        font-weight:700;
+    }
+    
+
+  
+    .blog-text-more {
+        display:none;
+        
+    }
+
+    .blog-navbar {
+        height: 54px;
+        
+    }
+
+    .blog-navbar-items a {
+        font-size: 16px;
+        line-height: 54px;
+        margin-right: 32px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+/* ================ MOBILE  ================ */
+
+@media (max-width:787px) {
+
+    /* ================ MOBILE BASE SETTING ================ */
+
+    h2 {
+        font-size: 32px;
+        line-height: 72px;
+    }
+
+    h3 {
+        font-size: 24px;
+        line-height: 48px;
+    }
+
+    h4 {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+
+
+    .container {
+
+        max-width: 375px;
+        /* (345+30 gutter) */
+    }
+
+
+    /* ======   MOBILE HEADER SETTING ====== */
+
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        width: 100%;
+
+    }
+
+
+    .nav-logo {
+        max-width: 48px;
+        height: 50px;
+
+    }
+
+    .nav-menu {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: start;
+
+    }
+
+
+    .nav-menu-list {
+        border: 1px solid #fff;
+        width: 50%;
+        text-align: center;
+        
+    }
+
+
+    .nav-menu-list a {
+        margin:8px auto;       
+        display:block;
+
+    } 
+    
+   
+
+
+    .header-banner {
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/banner-sm.png);
+        height:394px;
+        justify-content: flex-end;
+    }
+
+    
+
+    .header-banner-text {
+        margin-top: 164px;
+        margin-bottom: 164px;
+        width:345px;
+    }
+
+    .home-section {
+        padding-top:32px;
+        padding-bottom:40px;
+    }
+
+
+    .title-1 {
+        margin-bottom: 28px;
+    }
+
+
+    .title-2 {
+        margin-bottom: 20px;
+    }
+    
+    .title-3 {
+        margin-bottom: 20px;
+    }
+
+
+    .header-content-list li {
+        max-width: 100%;
+    }
+
+    .header-content-list-img {
+        width: 83px;
+        height: 83px;
+        margin-bottom: 24px;
+    }
+     
+    .header-content-list {
+        padding: 0 50px;
+   }
+   
+    
+    .header-content-list p {
+        margin-bottom: 40px;
+    }
+
+ 
+
+    /*======  MOBILE FOOTER SETTING ======*/
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 24px;
+
+    }
+
+    .footer-icon {
+
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+    }
+
+    .display {
+        display: none;
+    }
+
+
+    .footer-icon-list {
+
+        align-items: flex-start;
+        width: 40%;
+        height: 24px;
+    }
+
+    .footer-top-right {
+        margin-right: 6px;
+    }
+
+    .footer-contact-info img {
+        margin-right: 6.5px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer-contact-info {
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 6px;
+    }
+
+    .footer-contact {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .footer-line {
+        margin-bottom: 16px;
+    }
+
+    .footer-copyright,
+    .footer-policy {
+        display: block;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+
+    .footer-copyright>p {
+        margin-bottom: 8px;
+    }
+
+    .footer-policy li {
+        margin-bottom: 8px;
+    }
+
+    /*==================================   MOBILE HOME PAGE  =======================================*/
+
+    /* ===   MOBILE CLASSIC SECTION === */
+
+    .classic li {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .classic-img  {
+        
+     max-width:100%;
+
+    }
+
+    .classic-item-icon {
+        width: 37px;
+        height:37px;
+    }
+
+   
+    .classic-item-1,
+    .classic-item-2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+    }
+
+
+    .classic-item-1, .classic-item-2 {
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    
+
+    /* === MOBILE recommend SECTION === */
+
+    .recommend-case {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .recommend-list {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .recommend-case:last-child {
+        width: 100%;
+        
+    }
+
+    /* === MOBILE CO-BRANDING SECTION === */
+
+    .co-branding-pic {
+
+        flex-direction: column;
+    }
+
+    .co-branding-pic li {
+        margin-bottom: 16px;
+    }
+
+    .form {
+        width: auto;
+
+    }
+
+    .form-text {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+
+    label {
+        margin-top: 8px;
+        margin-bottom: 4px;
+    }
+
+
+    input[type="submit"] {
+        width: 165px;
+        height: 36px;
+        padding: 0;
+    }
+
+    .store {
+        padding-top: 28px;
+    }
+
+    .store h2 {
+        font-size: 28px;
+        line-height: 40px;
+        height: 40px;
+        margin-bottom: 24px;
+    }
+
+    .shop-location.container {
+        font-size: 14px;
+        margin-bottom: 24px;
+        
+    }
+
+
+    .shop-location.container span {
+        line-height: 36px;
+        margin-right: 12px;
+        height: 36px;
+        
+    }
+
+    .shop-location.container select {
+        width: 245px;
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .shop-list-item {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .product-nav-item {
+        width: 115px;
+        height: 30px;
+    }
+
+    .product-nav-item img {
+        width: 15px;
+        height: 15px;
+        margin-right: 6.7px;
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
+       }
+
+       .product-nav-text {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+
+    .product-nav-image{
+        height: 148px;
+        margin-bottom:32px;
+    }
+
+
+    .product-all h2 {
+        font-size: 20px;
+    }
+
+    .product-all p {
+        font-size: 16px;       
+        margin-bottom: 20px;
+    }
+
+    .product-list-item {
+        width: 100%;
+        margin-bottom: 32px;
+        margin-right: 0;
+    }
+    .
+    .product-list-item:last-child {
+        margin-bottom: 40px;
+    }
+    
+    .page {
+        margin-bottom: 56px;
+    }
+
+    .blog {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+
+    .blog.container h2 {
+        font-size: 28px;
+        line-height: 40px;
+        border-left-width: 4px;
+        height: 40px;
+        padding-left:8px;
+    }
+
+    .blog-navbar {
+        display:none;
+    }
+
+     
+    .blog-list {
+        flex-direction: column;
+        margin-bottom:20px;
+        
+    }
+
+    .blog-list-img {
+        
+        width: 100%;
+        margin-bottom:8px;
+
+    }
+
+    .blog-list-img>img {
+        height: 275px;
+    }
+
+
+
+
+    .blog-card{
+        width: 100%;
+    }
+
+    .blog-text li:nth-child(3) {
+        display:none;
+    }
+
+    .blog-text li:nth-child(2) {
+        margin-bottom: 0px;
+    }
+    
+    .blog-list:last-child {
+        margin-bottom: 40px;
+    }
+  
+
+}
+
